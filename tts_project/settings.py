@@ -127,7 +127,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
     '*',
-   'readmybook.onrender.com'
+   'https://readmybook.onrender.com'
 ]
 
 MEDIA_URL = '/media/'  # Change this to the appropriate URL where the media files will be served
